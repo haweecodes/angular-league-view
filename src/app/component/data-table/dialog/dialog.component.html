@@ -1,0 +1,31 @@
+<h1 mat-dialog-title>{{item.team}}</h1>
+<div mat-dialog-content>
+  <table>
+    <thead>
+      <th>Played</th>
+      <th>Win</th>
+      <th>Lose</th>
+      <th>Draw</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          {{item.value.played}}
+        </td>
+        <td>
+          {{item.value.win}}
+        </td>
+        <td>
+          {{item.value.lose}}
+        </td>
+        <td>
+          {{item.value.draw}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="closeDialog()">Close</button>
+</div>

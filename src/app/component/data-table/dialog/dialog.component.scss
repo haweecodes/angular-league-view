@@ -1,0 +1,16 @@
+.cdk-overlay-pane {
+  width: 400px !important;
+}
+.mat-dialog-title {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+table {
+  border: 1px solid black;
+  width: 100%;
+  th, td {
+    border: 1px solid black;
+  }
+}
